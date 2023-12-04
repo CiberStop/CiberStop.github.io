@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css\Inicio.css">
+    <link rel="stylesheet" href="css/Que-es.css">
+    <link rel="stylesheet" href="css/Riesgos.css">
+    <link rel="stylesheet" href="css/Prevención.css">
+    <link rel="stylesheet" href="css/Actuación.css">
+    <Link rel="stylesheet" href="css/Encuesta.css">
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet"></head>
+<body bgcolor="#DFD6D8">
+
+    <!--Inicio del formulario Logo-->
+    <section id="FormularioLogo">
+        <div>
+            <p >
+              <span class="TextoLogoNegro">Ciber</span>
+              <span class="TextoLogoRojo">Stop</span>
+            </p>
+        </div>
+
+        <div class="img-Logo">
+            <img src="img/Logo.png" alt="">
+        </div>
+    </section>
+    <!--Fin del formulario Logo-->
+
+   
+   
+    <section id="FormularioOpciones">
+    <!--Inicio del boton inicio-->
+    <div id="BotonInicio">
+            <button onclick="BotonInicio()">INICIO</button>
+        </div>
+    <!--FIN DEL BOTON INICIO-->
+
+    <!--Inicio del boton ¿Qué es?-->
+    <div id="BotonQUE-ES">
+            <button onclick="BotonQUE_ES()">¿QUÉ ES?</button>
+        </div>
+    <!--Fin del boton ¿Qué es?-->
+    
+    <div id="BotonRIESGOS">
+        <button onclick="BotonRIESGOS()">RIESGOS</button>
+    </div>  
+
+    <div id="BotonPREVENCIÓN">
+        <button onclick="BotonPREVENCIÓN()">PREVENCIÓN</button>
+    </div>  
+
+    <div id="BotonACTUACIÓN">
+        <button onclick="BotonACTUACIÓN()">ACTUACIÓN</button>
+    </div>
+    <div id="BotonENCUESTA">
+        <button onclick="BotonENCUESTA()">ENCUESTA</button>
+    </div>  
+
+    <img src="img/INICIO.png"class="imgOpcionInicio" alt="">
+    <img src="img/Que es.png"class="imgOpcionQUE_ES" alt="">
+    <img src="img/Riesgo.png"class="imgOpcionRIESGOS" alt="">
+    <img src="img/´revencion.png" class="imgOpcionPREVENCIÓN" alt="">
+    <img src="img/Actuacion.png" class="imgOpcionACTUACIÓN" alt="">
+    <img src="img/Encuesta.png" class="imgOpcionENCUESTA"alt="">
+
+
+    <script>
+        function BotonInicio() {
+            window.location.href = "Inicio.html";
+        }
+
+
+        function BotonQUE_ES() {
+            window.location.href = "Que-es.html";
+        }
+
+
+        function BotonRIESGOS() {
+            window.location.href = "Riesgos.html";
+        }
+
+
+        function BotonPREVENCIÓN() {
+            window.location.href = "Prevención.html";
+        }
+
+        function BotonACTUACIÓN() {
+            window.location.href = "Actuación.html";
+        }
+
+        function BotonENCUESTA(){
+            window.location.href = "Encuesta.html";
+        }
+    </script>
+    <p class="Espacio"></p>
+    
+        
+       </section>
+    
+
+<!--Titulo Inicio-->
+       <section id="FormularioTitulo">
+       
+        <div>
+            <p class="ENCUESTA">ENCUESTA</p>
+        </div>
+        <img src="img/Encuesta.png"class="imgENCUESTA" alt="">
+    </section>
+
+      
+<!--Texto-->
+       <section id="FormularioTexto1">
+       <p class="TextoACTUACIÓN">Tu opinión es muy 
+        valiosa para nosotros. Queremos asegurarnos de que nuestro
+         sitio web sea lo más útil y amigable posible. Por favor, tómate un momento 
+         para responder algunas preguntas que nos
+          ayudarán a mejorar.
+        </p>
+
+        
+   
+
+               
+
+            <iframe id="Encuestaoline" 
+            allowtransparency="true" 
+            allowfullscreen="true" 
+            allow="geolocation; microphone; camera"
+         src="https://my.forms.app/form/6562928f73f56a36e1885209" 
+         frameborder="0" ></iframe>
+             
+             
+             
+            
+        <div id="BotonAnterior">
+            <button onclick="BotonAnterior()">ANTERIOR</button>
+        </div>
+    <script>
+        function BotonAnterior() {
+            window.location.href = "Actuación.html";
+        }
+       
+    </script>
+       
+
+       <img src="img/FlechaAnterior.png" class="FlechaAnterior" alt="">
+        </section>
+  
+   <!--Los siguientes div son para imagenes del titulo-->
+  
+<!--Los siguientes div son para imagenes del menu de Navegacion-->
+
+
+<!--Pie de Pagina-->
+
+    <section id="Footer">
+        <img src="img/Logo.png"class="img-Logo-Footer" alt="">
+        
+ <div><p>
+    <span class="FooterLogoNegro">Ciber</span>
+ <span class="FooterLogoRojo">Stop</span>
+ </p></div>
+            
+    
+    
+    <p>&copy; 2023 CiberStop</p>
+
+    </section>
+ 
+
+    
+</body>
+</html>

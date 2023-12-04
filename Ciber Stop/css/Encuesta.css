@@ -1,0 +1,177 @@
+#FormularioOpciones{
+    position: fixed;
+    background: #D1BD9B;
+    height:900px;
+    width: 380px;
+    left:0;
+    top: 230px;
+    overflow-y: auto;
+   
+    transition: top 0.5s ease-out;
+}
+#FormularioOpciones:hover {
+   
+    top: calc(6% - 90px); /* Ajusta según sea necesario */
+}
+
+
+#BotonENCUESTA button{
+    position: absolute;
+    font-size:30px ;
+    font-family: Arturo;
+    color: white;
+    background-color: #9B5026;
+    width: 258px; ;
+    height:110px ;
+    left:92px ;
+    top:780px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.imgOpcionENCUESTA{
+    position:absolute;
+    width:130px ;
+    left:2px ;
+    top: 770px;
+}
+#BotonENCUESTA :hover{
+    background-color: #5a1e00;
+}
+
+
+
+#FormularioOpciones::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+#FormularioOpciones::-webkit-scrollbar-thumb {
+    background-color: #454545; /* Color de la barra de desplazamiento */
+    border-radius: 5px; /* Bordes redondeados de la barra de desplazamiento */
+}
+
+#FormularioOpciones::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+}
+
+.Espacio{
+    position: relative;
+    height: 20px;
+    background-color: #5c5c5c;
+    margin-top: 130px;
+    bottom: -115%;
+}
+
+
+
+
+#FormularioTitulo{
+    position: absolute;
+    background:#DBB283;
+    height: 230px;
+    width: 970px;
+    left:380px ;
+    top: 0px;
+    
+}
+.imgENCUESTA {
+    position: absolute;
+    width: 220px;
+    left:110px;
+    top: 1px;
+
+}
+.ENCUESTA{
+    position: relative;
+    color: white;
+    background-color: #9B5026;
+    width: 550px;
+    height: 190px;
+    font-size: 75px;
+    font-family: Arturo;
+    left: 255px;
+    top: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+
+}
+
+
+#FormularioTexto1{
+    position:absolute;
+    background:rgb(237, 193, 159);
+    height: 1300px;
+    width: 970px;
+    left: 380px;
+    top: 230px;
+    
+}
+
+#Encuestaoline{
+    position: absolute;
+    width: 950px;
+    height:600px;
+    left:0px ;
+
+    top: 450px;
+    background-color: transparent;
+  
+    
+    
+   
+    
+}
+
+
+
+#Footer{
+    position: absolute;
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto en el pie de página */
+    text-align: center; /* Alineación del texto en el centro */
+    padding:1px; /* Espaciado interno */
+    
+   top: 1530px;
+    width: 1350px;
+    height: 70px;
+    margin-left: -10px;
+    
+}
+
+.img-Logo-Footer{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 660px;
+    top: 5px;
+    
+}
+
+.FooterLogoNegro{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-family: 'Abril Fatface', serif;
+    top:11px ;
+    left: 1px;
+}
+.FooterLogoRojo{
+    position: relative;
+    color: red;
+    font-size: 10px;
+    font-family: 'Abril Fatface', serif;
+    top:11px ;
+    left: -1px;
+
+}
+
+
+
+
+

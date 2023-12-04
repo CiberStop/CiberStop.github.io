@@ -1,0 +1,109 @@
+@font-face{ 
+    font-family: Arturo;
+    src: url("ArturoRegular.ttf");
+    
+}
+body{
+    
+    overflow-x: hidden;
+}
+
+
+#Bienvenida{
+    position: absolute;
+    font-size:80px;
+    color: blue;
+    font-family: 'Lilita One', sans-serif;  
+    top: -100px;
+    left: 300px;
+    top: -130px;
+    letter-spacing: 10px;
+    
+
+}
+#TextoBienvenida{
+position: absolute;
+font-size: 18px;
+color: black;
+font-family: Arturo;
+width: 650px;
+text-align: center;
+left: 630px;
+top: 150px;
+text-transform: uppercase;
+line-height: 1.5;
+letter-spacing: 2px;
+}
+
+#Iniciar{
+    position: absolute;
+    font-size: 45px;
+    color: white;
+    font-family: Arturo;
+    border-radius: 20px;
+    width: 350px;
+    height: 110px;
+    top: 550px;
+    left: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#2B4A9D ;
+    cursor: pointer;
+
+}
+#Iniciar button{
+    
+    font-size: 70px;
+    color: white;
+    font-family: Arturo;
+    border-radius: 20px;
+    width: 350px;
+    height: 110px;
+    top: 550px;
+    left: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#2B4A9D ;
+    cursor: pointer;
+}
+#Iniciar :hover{
+    background-color: rgb(3, 0, 47);
+
+}
+
+#Liena{
+    position: absolute;
+    width: 50px;
+    height: 750px;
+    background-color:#2B4A9D ;
+    left:0px;
+    top: 0px;
+    
+
+}
+
+#img-Bienvenida{
+    position: absolute;
+    left: 0px;
+    top: 160px;
+    
+}
+.Imagen-Bienvenida img{
+    width: 700px;
+    
+}
+
+#img-Grafico{
+    position: absolute;
+    left: 950px;
+    top: 70px;
+    
+}
+.Imagen-Grafico img{
+    width: 700px;
+    
+}
+
+

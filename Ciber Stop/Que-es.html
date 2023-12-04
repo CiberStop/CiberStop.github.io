@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué es?</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css\Inicio.css">
+    <link rel="stylesheet" href="css/Que-es.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet"></head>
+<body bgcolor="#DFD6D8">
+
+    <!--Inicio del formulario Logo-->
+    <section id="FormularioLogo">
+        <div>
+            <p >
+              <span class="TextoLogoNegro">Ciber</span>
+              <span class="TextoLogoRojo">Stop</span>
+            </p>
+        </div>
+
+        <div class="img-Logo">
+            <img src="img/Logo.png" alt="">
+        </div>
+    </section>
+    <!--Fin del formulario Logo-->
+
+    <section id="FormularioOpciones">
+    <!--Inicio del boton inicio-->
+    <div id="BotonInicio">
+            <button onclick="BotonInicio()">INICIO</button>
+        </div>
+    <!--FIN DEL BOTON INICIO-->
+
+    <!--Inicio del boton ¿Qué es?-->
+    <div id="BotonQUE-ES">
+            <button onclick="BotonQUE_ES()">¿QUÉ ES?</button>
+        </div>
+    <!--Fin del boton ¿Qué es?-->
+
+
+    <img src="img/INICIO.png"class="imgOpcionInicio" alt="">
+    <img src="img/Que es.png"class="imgOpcionQUE_ES" alt="">
+
+    <script>
+        function BotonInicio() {
+            window.location.href = "Inicio.html";
+        }
+
+
+        function BotonQUE_ES() {
+            window.location.href = "Que-es.html";
+        }
+    </script>
+        
+       </section>
+
+<!--Titulo Inicio-->
+       <section id="FormularioTitulo">
+       
+        <div>
+            <p class="QUE_ES">¿QUÉ ES?</p>
+        </div>
+        <img src="img/Que es.png"class="imgQUE_ES" alt="">
+    </section>
+
+      
+<!--Texto-->
+       <section id="FormularioTexto">
+       <p class="TextoQUE_ES1">El ciberacoso es cuando  alguien en Internet 
+        hace cosas malas que pueden lastimarte o hacerte sentir triste. Pueden usar 
+        palabras feas o decir cosas que no son amables. Pero no te preocupes, 
+        ¡Juntos, haremos que Internet sea un lugar divertido y amigable 
+        para todos los niños!</p>
+         
+        <p class="TextoQUE_ES2">Si aun tienes dudas y deseas aprender mas sobre
+             el ciberacoso puedes observar el siguiente video:</p>
+
+        <p class="CampoVacio1">¡VAMOS ALLÁ!</p>     
+
+             <iframe class="Video" width="600" height="337" src="https://www.youtube.com/embed/E235oRqubv4" title="¿Qué es el ciberacoso?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+         <div id="BotonSiguiente">
+            <button onclick="BotonSiguiente()">SIGUIENTE</button>
+        </div>
+        <div id="BotonAnterior">
+            <button onclick="BotonAnterior()">ANTERIOR</button>
+        </div>
+    <script>
+        function BotonAnterior() {
+            window.location.href = "Inicio.html";
+        }
+        function BotonSiguiente() {
+            window.location.href = "Riesgos.html";
+        }
+    </script>
+       <img src="img/FlechaSiguiente.png" class="FlechaSiguiente" alt="">
+
+       <img src="img/FlechaAnterior.png" class="FlechaAnterior" alt="">
+        </section>
+  
+   <!--Los siguientes div son para imagenes del titulo-->
+  
+<!--Los siguientes div son para imagenes del menu de Navegacion-->
+
+
+<!--Pie de Pagina-->
+
+    <section id="Footer">
+        <img src="img/Logo.png"class="img-Logo-Footer" alt="">
+        
+ <div><p>
+    <span class="FooterLogoNegro">Ciber</span>
+ <span class="FooterLogoRojo">Stop</span>
+ </p></div>
+            
+    
+ 
+    <p>&copy; 2023 CiberStop</p>
+
+    </section>
+ 
+
+    
+</body>
+</html>

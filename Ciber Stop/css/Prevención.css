@@ -1,0 +1,288 @@
+#BotonPREVENCIÓN button{
+    position: absolute;
+    font-size:30px ;
+    font-family: Arturo;
+    color: white;
+    background-color: #3B9D2F;
+    width: 260px; ;
+    height:110px ;
+    left:90px ;
+    top:500px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.imgOpcionPREVENCIÓN{
+    position:absolute;
+    width:120px ;
+    left:10px ;
+    top: 491px;
+}
+#BotonPREVENCIÓN :hover{
+    background-color: #015903;
+}
+
+
+#FormularioOpciones::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+#FormularioOpciones::-webkit-scrollbar-thumb {
+    background-color: #4CAF50; /* Color de la barra de desplazamiento */
+    border-radius: 5px; /* Bordes redondeados de la barra de desplazamiento */
+}
+
+#FormularioOpciones::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+}
+
+
+
+/* TITULO */
+#FormularioTitulo{
+    position: absolute;
+    background:#9BE18D;
+    height: 230px;
+    width: 970px;
+    left:380px ;
+    top: 0px;
+    
+}
+.imgPREVENCIÓN {
+    position: absolute;
+    width: 200px;
+    left:115px;
+    top: 10px;
+
+}
+.PREVENCIÓN{
+    position: relative;
+    color: white;
+    background-color: #3B9D2F;
+    width: 600px;
+    height: 190px;
+    font-size: 75px;
+    font-family: Arturo;
+    left: 255px;
+    top: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+
+}
+
+
+
+
+#FormularioTexto{
+    position:absolute;
+    background:#cdffbe;
+    height: 3950px;
+    width: 970px;
+    left: 380px;
+    top: 230px;
+    
+}
+
+.TextoPREVENCIÓN{
+    position: absolute;
+    font-size: 35px;
+    font-family: Arturo;
+    color: black;
+    width: 750px;
+    left: 110px;
+    top: 20px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.TextoPREVENCIÓN0{
+    position: absolute;
+    font-size: 35px;
+    font-family: Arturo;
+    color: black;
+    width: 750px;
+    left: 110px;
+    top: 250px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+
+.TextoPREVENCIÓN1{
+    position: absolute;
+    font-size: 33px;
+    font-family: Arturo;
+    color: black;
+    top: 550px;
+    width: 450px;
+    left: 60px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.TextoPREVENCIÓN1 .Subtitulo1 {
+    color: #148607; /* Cambia a tu color deseado */
+    font-weight: bold; /* Puedes agregar otras propiedades aquí */
+}
+.imgPREVENCIÓN1{
+    position: absolute;
+    width: 390px;
+    top: 500px;
+    left: 520px;
+}
+
+
+.TextoPREVENCIÓN2{
+    position: absolute;
+    font-size: 32px;
+    font-family: Arturo;
+    color: black;
+    top: 930px;
+    width: 480px;
+    left: 460px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.TextoPREVENCIÓN2 .Subtitulo2 {
+    color: #148607; /* Cambia a tu color deseado */
+    font-weight: bold; /* Puedes agregar otras propiedades aquí */
+}
+.imgPREVENCIÓN2{
+    position: absolute;
+    width: 380px;
+    top: 930px;
+    left: 50px;
+}
+
+
+.TextoPREVENCIÓN3{
+    position: absolute;
+    font-size: 33px;
+    font-family: Arturo;
+    color: black;
+    top: 1380px;
+    width: 450px;
+    left: 60px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.TextoPREVENCIÓN3 .Subtitulo3 {
+    color: #148607; /* Cambia a tu color deseado */
+    font-weight: bold; /* Puedes agregar otras propiedades aquí */
+}
+.imgPREVENCIÓN3{
+    position: absolute;
+    width: 400px;
+    top: 1370px;
+    left: 500px;
+}
+
+
+.TextoPREVENCIÓN4{
+    position: absolute;
+    font-size: 33px;
+    font-family: Arturo;
+    color: black;
+    top: 1830px;
+    width: 460px;
+    left: 460px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.TextoPREVENCIÓN4 .Subtitulo4 {
+    color: #148607; /* Cambia a tu color deseado */
+    font-weight: bold; /* Puedes agregar otras propiedades aquí */
+}
+.imgPREVENCIÓN4{
+    position: absolute;
+    width: 390px;
+    top: 1810px;
+    left: 50px;
+}
+
+.TextoPREVENCIÓN5{
+    position: absolute;
+    font-size: 33px;
+    font-family: Arturo;
+    color: black;
+    top: 2270px;
+    width: 450px;
+    left: 60px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.TextoPREVENCIÓN5 .Subtitulo5 {
+    color: #148607; /* Cambia a tu color deseado */
+    font-weight: bold; /* Puedes agregar otras propiedades aquí */
+}
+.imgPREVENCIÓN5{
+    position: absolute;
+    width: 420px;
+    top: 2320px;
+    left: 500px;
+}
+
+.TextoRIESGOSFinal{
+    position: absolute;
+    font-size: 30px;
+    font-family: Arturo;
+    color: black;
+    width: 900px;
+    left: 30px;
+    top: 2800px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+
+}
+
+
+
+
+#Footer{
+    position: absolute;
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto en el pie de página */
+    text-align: center; /* Alineación del texto en el centro */
+    padding:1px; /* Espaciado interno */
+    
+   top: 4180px;
+    width: 1350px;
+    height: 70px;
+    margin-left: -10px;
+    
+}
+
+.img-Logo-Footer{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 660px;
+    top: 5px;
+    
+}
+
+.FooterLogoNegro{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-family: 'Abril Fatface', serif;
+    top:11px ;
+    left: 1px;
+}
+.FooterLogoRojo{
+    position: relative;
+    color: red;
+    font-size: 10px;
+    font-family: 'Abril Fatface', serif;
+    top:11px ;
+    left: -1px;
+
+}

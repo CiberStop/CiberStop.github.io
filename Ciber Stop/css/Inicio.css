@@ -1,0 +1,266 @@
+@font-face{ 
+    font-family: Arturo;
+    src: url("ArturoRegular.ttf");
+    
+}
+body{
+    overflow-x: hidden;
+}
+#Bienvenida{
+    position: absolute;
+    font-size:80px;
+    color: blue;
+    font-family: 'Lilita One', sans-serif;  
+    top: -100px;
+    left: 300px;
+    top: -130px;
+    letter-spacing: 10px;
+
+}
+
+
+#FormularioOpciones{
+    position: fixed;
+    background: #D1BD9B;
+    height:680px;
+    width: 380px;
+    left:0;
+    top: 230px;
+    overflow-y: auto;
+    
+    transition: top 1s ease-out;
+}
+#FormularioOpciones:hover {
+    top: calc(6% - 90px); /* Ajusta según sea necesario */
+}
+
+
+#BotonInicio button{
+    position: absolute;
+    font-size:30px ;
+    font-family: Arturo;
+    color: white;
+    background-color: #2B4A9D;
+    width: 250px; ;
+    height:110px ;
+    left:100px ;
+    top:80px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.imgOpcionInicio{
+    position:absolute;
+    width:120px ;
+    left:5px ;
+    top: 70px;
+}
+#BotonInicio :hover{
+    background-color: #021343;
+}
+
+
+#FormularioOpciones::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+#FormularioOpciones::-webkit-scrollbar-thumb {
+    background-color: #000200; /* Color de la barra de desplazamiento */
+    border-radius: 5px; /* Bordes redondeados de la barra de desplazamiento */
+}
+
+#FormularioOpciones::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+}
+
+
+
+#FormularioTitulo{
+    position: absolute;
+    background:#7EB6DD;
+    height: 230px;
+    width: 970px;
+    left:380px ;
+    top: 0px;
+    
+}
+
+.imgInicio img{
+    position: absolute;
+    width: 200px;
+    left:550px;
+    
+
+}
+h1{
+    position: relative;
+    color: white;
+    background-color: #2B4A9D;
+    width: 500px;
+    height: 190px;
+    font-size: 90px;
+    font-family: Arturo;
+    left: 300px;
+    top: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+   
+
+
+}
+
+
+#FormularioTexto{
+    position:absolute;
+    background:#c4d9ff;
+    height: 1250px;
+    width: 970px;
+    left: 380px;
+    top: 230px;
+    
+}
+.TextoInicio1{
+    position: absolute;
+    font-size: 35px;
+    font-family: Arturo;
+    color: black;
+    width: 700px;
+    left: 100px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+
+}
+.TextoInicio2{
+    position: absolute;
+    font-size: 35px;
+    font-family: Arturo;
+    color: black;
+    top: 600px;
+    width: 700px;
+    left: 100px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+
+
+}
+.TextoInicio3{
+    position: absolute;
+    font-size: 35px;
+    font-family: Arturo;
+    color: black;
+    width: 700px;
+    left: 100px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    top: 950px;
+}
+#BotonSiguiente button{
+    position: absolute;
+    font-size:30px ;
+    font-family: Arturo;
+    color: white;
+    background-color: #0F7903;
+    width: 230px; ;
+    height:70px ;
+    left:340px ;
+    bottom: 60px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#BotonSiguiente :hover{
+    background-color: #074101;
+}
+
+
+
+
+
+
+#FormularioLogo{
+    position:fixed;
+    background:#E69B55;
+    height: 230px;
+    width: 380px;
+    left: 0;
+    top: 0px;
+    
+}
+.img-Logo img{
+    position: absolute;
+    width: 170px;
+    left: 100px;
+    top: 5px;
+
+}
+.TextoLogoNegro{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: 'Abril Fatface', serif;
+    top:175px ;
+    left: 100px;
+}
+.TextoLogoRojo{
+    position: absolute;
+    color: red;
+    font-size: 35px;
+    font-family: 'Abril Fatface', serif;
+    top:175px ;
+    left: 192px;
+
+}
+
+
+#Footer{
+    position: absolute;
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto en el pie de página */
+    text-align: center; /* Alineación del texto en el centro */
+    padding:1px; /* Espaciado interno */
+    
+   top: 1450px;
+    width: 1350px;
+    height: 70px;
+    margin-left: -10px;
+    
+}
+
+.img-Logo-Footer{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 660px;
+    top: 5px;
+    
+}
+
+.FooterLogoNegro{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-family: 'Abril Fatface', serif;
+    top:11px ;
+    left: 1px;
+}
+.FooterLogoRojo{
+    position: relative;
+    color: red;
+    font-size: 10px;
+    font-family: 'Abril Fatface', serif;
+    top:11px ;
+    left: -1px;
+
+}
+
